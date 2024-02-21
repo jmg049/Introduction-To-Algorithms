@@ -58,12 +58,12 @@ public class Sorting {
 ```
 Starting off the we will define out method signature and include the simple bounds check on the size of our input.
 
-The method takes two arguments: 1) our input data and 2) a comparator, which can be used to control the sort ordering. See [Comparators](./java_reference/comparators.md) for more information on what comparators do and how they are used. For now, they simply let us separate some of the sorting logic so that we don't have to redefine our merge sort method for every different type of ordering (ascending, descending, etc.).
+The method takes two arguments: 1) our input data and 2) a comparator, which can be used to control the sort ordering. See [Comparators](../java_reference/comparator.md) for more information on what comparators do and how they are used. For now, they simply let us separate some of the sorting logic so that we don't have to redefine our merge sort method for every different type of ordering (ascending, descending, etc.).
 
-The most complicated part of our method signature is the [Bounded Type Parameter](./java_reference/bounded_typed_parameter.md), which is associated with our [Generic Type](./java_reference/generics.md) type ***T***. 
+The most complicated part of our method signature is the [Bounded Type Parameter](../java_reference/bounded_type_parameter.md), which is associated with our [Generic Type](../java_reference/generics.md) type ***T***. 
 Generics allow us to indicate that any type can be associated with a class or method, a bounded generic type is an a more constrained version of a generic. They allow us to indicate that the generic type we want to use with our class/method must implement some interface, i.e. it has to have some functionality implemented. 
 
-In our method signature, we declare a bounded type parameter ***T***, which must implement the [Comparable](./java_reference/comparable.md). We are simple starting that whatever type ***T*** is, it must implement the the ``Comparable`` interface which allows it to be compared against other objects.
+In our method signature, we declare a bounded type parameter ***T***, which must implement the [Comparable](../java_reference/comparable.md). We are simple starting that whatever type ***T*** is, it must implement the the ``Comparable`` interface which allows it to be compared against other objects.
 The ``?`` symbol is a feature of the Generics system. It is called a wildcard and is used to enable lower-bounded types. These allow us to pass any subtype/subclass of the type/class ***T*** to our method. Any class that inherits from ***T*** can also be passed to our sort method.
 Now that we have looked at the method signature, let's implement the sorting functionality.
 

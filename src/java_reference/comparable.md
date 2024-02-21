@@ -32,7 +32,7 @@ public class Student implements Comparable<Student> {
 ```
 
 ## Using Comparable
-```
+```java
 import java.util.ArrayList;
 import java.util.Collections;
 
