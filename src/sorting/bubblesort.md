@@ -85,6 +85,14 @@ public static void main(final String[] args) {
     bubbleSort(intsArr, Comparator.comparing(Integer::intValue));
     System.out.println("Array sorted: " + sorted(intsArr, Comparator.comparing(Integer::intValue)) + " " + Arrays.toString(intsArr));
 }
+
+public static <T> void shuffle(final T[] data) {
+    for (int i = data.length - 1; i >= 1; i--) {
+        int j = (int) (Math.random() * data.length);
+        swap(data, i, j);
+    }
+}
+
 ```
 
 ## Complexiity
