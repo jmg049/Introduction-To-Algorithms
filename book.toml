@@ -14,7 +14,7 @@ default-theme = "ayu"
 git-repository-url = "https://github.com/jmg049/Introduction-To-Algorithms"
 additional-css = ["theme/pagetoc.css"]
 additional-js = ["theme/pagetoc.js"]
-
+mathjax-support = true
 [output.html.fold]
 enable = false
 level = 1
