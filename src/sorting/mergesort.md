@@ -1,6 +1,7 @@
 # [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
 Merge sort is a highly efficient comparison-based sorting algorithm known for its stable performance and effectiveness with large datasets. Operating on the principle of divide and conquer, merge sort divides the input array into smaller sub-arrays until each sub-array consists of only one element. It then merges these sub-arrays in a sorted manner, repeatedly combining adjacent sub-arrays until a single sorted array remains. The merging process involves comparing elements from each sub-array and placing them in the correct order in a temporary array, ensuring that the resulting array is sorted. With a guaranteed worst-case time complexity of O(n log n), merge sort is widely used in various applications where stable and predictable performance is required, such as sorting massive datasets or implementing efficient external sorting algorithms. Its recursive nature and straightforward implementation make merge sort a fundamental concept in the study of sorting algorithms and algorithm design.
 
+
 ## Implementation
 
 ### Pseudocode
