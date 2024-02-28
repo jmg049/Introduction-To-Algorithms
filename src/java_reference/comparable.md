@@ -56,9 +56,8 @@ public class Main {
 ```
 
 The above example should print:
-
+```
 Bob : 18
-
 Alice : 20
-
 Charlie : 22
+```

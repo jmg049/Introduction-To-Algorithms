@@ -11,7 +11,6 @@
 - [Java Reference](./java_reference/introduction.md)
 	+ [Keywords](./java_reference/keywords.md)
 	+ [Comparable](./java_reference/comparable.md)
-	+ [Comapator](./java_reference/comparator.md)
+	+ [Comparator](./java_reference/comparator.md)
 	+ [Generics](./java_reference/generics.md)
-	+ [Bounded Type Parameter](./java_reference/bounded_type_parameter.md)
 
