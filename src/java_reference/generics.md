@@ -34,7 +34,7 @@ System.out.println("Value in the string box: " + stringBox.getValue()); // Outpu
 	
 
 ``` java
-pu	blic interface Pair<K, V> {
+public interface Pair<K, V> {
     K getKey();
     V getValue();
 }
