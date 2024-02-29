@@ -1,4 +1,4 @@
-# [Comaparator]()
+# [Comparator](https://docs.oracle.com/javase/10/docs/api/java/util/Comparator.html)
 The ``Comparator`` interface is used to define a comparison method that can be used to order objects. It's often used in sorting collections of objects or when defining custom sorting orders for objects. The Comparator interface is part of the ``java.util`` package and it has a single method, ``compare()``, which compares two objects and returns an integer indicating their relative order.
 
 ```java
