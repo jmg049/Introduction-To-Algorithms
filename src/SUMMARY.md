@@ -10,6 +10,8 @@
 	
 - [Java Reference](./java_reference/introduction.md)
 	+ [Keywords](./java_reference/keywords.md)
+	+ [Lambda Expressions](./java_reference/lambda_expressions.md)
+	+ [Method References](./java_reference/method_references.md)
 	+ [Comparable](./java_reference/comparable.md)
 	+ [Comparator](./java_reference/comparator.md)
 	+ [Generics](./java_reference/generics.md)
