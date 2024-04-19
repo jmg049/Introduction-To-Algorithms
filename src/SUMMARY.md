@@ -11,7 +11,8 @@
 - [Searching](./searching/introduction.md)
    + [Binary Search](./searching/binary_search.md)
    + [String Searching](./searching/string_searching.md)
- 
+
+- [Dynamic Programming](./dynamic_programming/dynamic_programming.md)
 
 - [Java Reference](./java_reference/introduction.md)
 	+ [Keywords](./java_reference/keywords.md)
